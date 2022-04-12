@@ -1,0 +1,252 @@
+train_start_day: 20191101
+train_end_day: 20201101
+valid_start_day: 20201101
+valid_end_day: 20201201
+base_path: /b/home/pengfei_ji/factor_dbs/
+factor_group: production_factors
+
+train_factors: [
+
+  'x1_1_2_0_L0000_normed', 'x1_6_1_0_L0096_L0000_normed', 'x1_6_2_0_L0096_L0000_normed', 'x1_7_1_1_L0000_normed',
+  'x1_7_2_1_L0000_normed', 'x1_7_3_1_L0000_normed', 'x1_7_4_1_L0000_normed', 'x1_7_5_1_L0000_normed',
+  'x1_7_6_1_L0000_normed', 'x1_7_7_1_L0000_normed', 'x1_7_8_1_L0000_normed', 'x1_8_1_1_L0000_normed',
+  'x1_8_1_2_L0000_normed', 'x1_9_1_0_L0000_normed', 'x1_10_1_1_L0000_normed', 'x1_10_1_2_L0000_normed',
+  'x1_11_1_1_L0003_L0000_normed', 'x1_11_1_1_L0006_L0000_normed', 'x1_11_1_1_L0012_L0000_normed',
+  'x1_11_1_1_L0024_L0000_normed', 'x1_11_1_2_L0003_L0000_normed', 'x1_11_1_2_L0006_L0000_normed',
+  'x1_11_1_2_L0012_L0000_normed', 'x1_11_1_2_L0024_L0000_normed', 'x1_12_1_1_L0024_L0000_normed',
+  'x1_12_1_1_L0048_L0000_normed', 'x1_12_1_2_L0024_L0000_normed', 'x1_12_1_2_L0048_L0000_normed',
+  'x1_12_1_1_L0096_L0000_normed', 'x1_12_1_2_L0096_L0000_normed',
+
+  'x2_1_1_1_L0003_L0000_normed',
+  'x2_1_1_2_L0003_L0000_normed', 'x2_1_1_1_L0006_L0003_normed', 'x2_1_1_2_L0006_L0003_normed',
+  'x2_1_1_1_L0012_L0006_normed', 'x2_1_1_2_L0012_L0006_normed', 'x2_1_1_1_L0024_L0012_normed',
+  'x2_1_1_2_L0024_L0012_normed', 'x2_1_1_1_L0048_L0024_normed', 'x2_1_1_2_L0048_L0024_normed',
+  'x2_1_1_1_L0096_L0048_normed', 'x2_1_1_2_L0096_L0048_normed', 'x2_1_2_1_L0003_L0000_normed',
+  'x2_1_2_2_L0003_L0000_normed', 'x2_1_2_1_L0006_L0003_normed', 'x2_1_2_2_L0006_L0003_normed',
+  'x2_1_2_1_L0012_L0006_normed', 'x2_1_2_2_L0012_L0006_normed', 'x2_1_3_1_L0003_L0000_normed',
+  'x2_1_3_2_L0003_L0000_normed', 'x2_1_3_1_L0006_L0003_normed', 'x2_1_3_2_L0006_L0003_normed',
+  'x2_1_3_1_L0012_L0006_normed', 'x2_1_3_2_L0012_L0006_normed', 'x2_1_3_1_L0024_L0012_normed',
+  'x2_1_3_2_L0024_L0012_normed', 'x2_1_3_1_L0048_L0024_normed', 'x2_1_3_2_L0048_L0024_normed',
+  'x2_1_4_1_L0003_L0000_normed', 'x2_1_4_2_L0003_L0000_normed', 'x2_1_4_1_L0006_L0003_normed',
+  'x2_1_4_2_L0006_L0003_normed', 'x2_1_4_1_L0012_L0006_normed', 'x2_1_4_2_L0012_L0006_normed',
+  'x2_1_4_1_L0024_L0012_normed', 'x2_1_4_2_L0024_L0012_normed', 'x2_1_4_1_L0048_L0024_normed',
+  'x2_1_4_2_L0048_L0024_normed', 'x2_1_5_1_L0003_L0000_normed', 'x2_1_5_2_L0003_L0000_normed',
+  'x2_1_5_1_L0006_L0003_normed', 'x2_1_5_2_L0006_L0003_normed', 'x2_1_5_1_L0012_L0006_normed',
+  'x2_1_5_2_L0012_L0006_normed', 'x2_1_5_1_L0024_L0012_normed', 'x2_1_5_2_L0024_L0012_normed',
+  'x2_1_5_1_L0048_L0024_normed', 'x2_1_5_2_L0048_L0024_normed',
+
+  'x3_2_1_1_L0003_L0000_normed',
+  'x3_2_1_2_L0003_L0000_normed', 'x3_2_1_1_L0006_L0003_normed', 'x3_2_1_2_L0006_L0003_normed',
+  'x3_2_1_1_L0012_L0006_normed', 'x3_2_1_2_L0012_L0006_normed', 'x3_2_1_1_L0024_L0012_normed',
+  'x3_2_1_2_L0024_L0012_normed', 'x3_2_2_1_L0003_L0000_normed', 'x3_2_2_2_L0003_L0000_normed',
+  'x3_2_2_1_L0006_L0003_normed', 'x3_2_2_2_L0006_L0003_normed', 'x3_2_2_1_L0012_L0006_normed',
+  'x3_2_2_2_L0012_L0006_normed', 'x3_2_2_1_L0024_L0012_normed', 'x3_2_2_2_L0024_L0012_normed',
+  'x3_2_3_1_L0003_L0000_normed', 'x3_2_3_2_L0003_L0000_normed', 'x3_2_3_1_L0006_L0003_normed',
+  'x3_2_3_2_L0006_L0003_normed', 'x3_2_3_1_L0012_L0006_normed', 'x3_2_3_2_L0012_L0006_normed',
+  'x3_2_3_1_L0024_L0012_normed', 'x3_2_3_2_L0024_L0012_normed', 'x3_3_1_1_L0000_normed', 'x3_3_1_2_L0000_normed',
+  'x3_3_1_1_L0003_L0000_normed', 'x3_3_1_2_L0003_L0000_normed', 'x3_3_1_1_L0006_L0003_normed',
+  'x3_3_1_2_L0006_L0003_normed', 'x3_3_1_1_L0012_L0006_normed', 'x3_3_1_2_L0012_L0006_normed',
+  'x3_3_1_1_L0024_L0012_normed', 'x3_3_1_2_L0024_L0012_normed', 'x3_3_1_1_L0048_L0024_normed',
+  'x3_3_1_2_L0048_L0024_normed', 'x3_3_2_1_L0000_normed', 'x3_3_2_2_L0000_normed', 'x3_3_2_1_L0003_L0000_normed',
+  'x3_3_2_2_L0003_L0000_normed', 'x3_3_2_1_L0006_L0003_normed', 'x3_3_2_2_L0006_L0003_normed',
+  'x3_3_2_1_L0012_L0006_normed', 'x3_3_2_2_L0012_L0006_normed', 'x3_3_2_1_L0024_L0012_normed',
+  'x3_3_2_2_L0024_L0012_normed', 'x3_3_2_1_L0048_L0024_normed', 'x3_3_2_2_L0048_L0024_normed',
+
+  'x4_2_1_1_L0003_L0000_normed', 'x4_2_1_2_L0003_L0000_normed', 'x4_2_1_1_L0006_L0003_normed',
+  'x4_2_1_2_L0006_L0003_normed', 'x4_2_1_1_L0012_L0006_normed', 'x4_2_1_2_L0012_L0006_normed',
+  'x4_2_1_1_L0024_L0012_normed', 'x4_2_1_2_L0024_L0012_normed', 'x4_2_1_1_L0048_L0024_normed',
+  'x4_2_1_2_L0048_L0024_normed', 'x4_2_1_1_L0096_L0048_normed', 'x4_2_1_2_L0096_L0048_normed',
+  'x4_2_2_1_L0003_L0000_normed', 'x4_2_2_2_L0003_L0000_normed', 'x4_2_2_1_L0006_L0003_normed',
+  'x4_2_2_2_L0006_L0003_normed', 'x4_2_2_1_L0012_L0006_normed', 'x4_2_2_2_L0012_L0006_normed',
+  'x4_2_2_1_L0024_L0012_normed', 'x4_2_2_2_L0024_L0012_normed', 'x4_2_3_1_L0003_L0000_normed',
+  'x4_2_3_2_L0003_L0000_normed', 'x4_2_3_1_L0006_L0003_normed', 'x4_2_3_2_L0006_L0003_normed',
+  'x4_2_3_1_L0012_L0006_normed', 'x4_2_3_2_L0012_L0006_normed', 'x4_2_3_1_L0024_L0012_normed',
+  'x4_2_3_2_L0024_L0012_normed', 'x4_3_1_1_L0000_normed', 'x4_3_1_2_L0000_normed', 'x4_3_2_1_L0000_normed',
+  'x4_3_2_2_L0000_normed', 'x4_4_1_1_L0003_L0000_normed', 'x4_4_1_2_L0003_L0000_normed', 'x4_4_1_1_L0006_L0003_normed',
+  'x4_4_1_2_L0006_L0003_normed', 'x4_4_1_1_L0012_L0006_normed', 'x4_4_1_2_L0012_L0006_normed',
+  'x4_4_1_1_L0024_L0012_normed', 'x4_4_1_2_L0024_L0012_normed', 'x4_4_1_1_L0048_L0024_normed',
+  'x4_4_1_2_L0048_L0024_normed', 'x4_4_1_1_L0096_L0048_normed', 'x4_4_1_2_L0096_L0048_normed',
+  'x4_4_2_1_L0003_L0000_normed', 'x4_4_2_2_L0003_L0000_normed', 'x4_4_2_1_L0006_L0003_normed',
+  'x4_4_2_2_L0006_L0003_normed', 'x4_4_2_1_L0012_L0006_normed', 'x4_4_2_2_L0012_L0006_normed',
+
+  'x5_1_1_0_L0000_normed', 'x5_1_2_0_L0000_normed', 'x5_2_1_1_L0000_normed', 'x5_2_1_2_L0000_normed', 'x5_2_1_1_L0003_L0000_normed',
+  'x5_2_1_2_L0003_L0000_normed', 'x5_2_1_1_L0006_L0003_normed', 'x5_2_1_2_L0006_L0003_normed',
+  'x5_2_1_1_L0012_L0006_normed', 'x5_2_1_2_L0012_L0006_normed', 'x5_2_1_1_L0024_L0012_normed',
+  'x5_2_1_2_L0024_L0012_normed', 'x5_2_1_1_L0048_L0024_normed', 'x5_2_1_2_L0048_L0024_normed',
+  'x5_3_1_0_L0003_L0000_normed', 'x5_3_1_0_L0006_L0003_normed', 'x5_3_1_0_L0012_L0006_normed',
+  'x5_3_1_0_L0024_L0012_normed', 'x5_3_1_0_L0048_L0024_normed', 'x5_3_1_0_L0096_L0048_normed',
+  'x5_3_2_0_L0003_L0000_normed', 'x5_3_2_0_L0006_L0003_normed', 'x5_3_2_0_L0012_L0006_normed',
+  'x5_3_2_0_L0024_L0012_normed', 'x5_3_2_0_L0048_L0024_normed',
+
+  'x6_2_1_1_L0003_L0000_normed', 'x6_2_1_2_L0003_L0000_normed', 'x6_2_1_1_L0006_L0003_normed', 'x6_2_1_2_L0006_L0003_normed',
+  'x6_2_1_1_L0012_L0006_normed', 'x6_2_1_2_L0012_L0006_normed',
+
+  'x7_1_1_1_L0003_L0000_normed',
+  'x7_1_1_2_L0003_L0000_normed', 'x7_1_1_1_L0006_L0000_normed', 'x7_1_1_2_L0006_L0000_normed',
+  'x7_1_1_1_L0012_L0000_normed', 'x7_1_1_2_L0012_L0000_normed', 'x7_1_1_1_L0024_L0000_normed',
+  'x7_1_1_2_L0024_L0000_normed', 'x7_1_1_1_L0048_L0000_normed', 'x7_1_1_2_L0048_L0000_normed',
+  'x7_2_1_1_L0003_L0000_normed', 'x7_2_1_2_L0003_L0000_normed', 'x7_2_1_1_L0006_L0000_normed',
+  'x7_2_1_2_L0006_L0000_normed', 'x7_2_1_1_L0012_L0000_normed', 'x7_2_1_2_L0012_L0000_normed',
+  'x7_2_1_1_L0024_L0000_normed', 'x7_2_1_2_L0024_L0000_normed', 'x7_2_1_1_L0048_L0000_normed',
+  'x7_2_1_2_L0048_L0000_normed', 'x7_2_1_1_L0096_L0000_normed', 'x7_2_1_2_L0096_L0000_normed',
+
+  'x8_1_1_0_L0003_L0000_normed', 'x8_1_1_0_L0006_L0003_normed', 'x8_1_1_0_L0012_L0006_normed',
+  'x8_1_1_0_L0024_L0012_normed', 'x8_1_1_0_L0048_L0024_normed', 'x8_1_1_0_L0096_L0048_normed',
+  'x8_2_1_0_L0003_L0000_normed', 'x8_2_1_0_L0006_L0003_normed', 'x8_2_1_0_L0012_L0006_normed',
+  'x8_2_1_0_L0024_L0012_normed', 'x8_2_1_0_L0048_L0024_normed', 'x8_2_1_0_L0096_L0048_normed',
+  'x8_3_1_0_L0003_L0000_normed', 'x8_3_1_0_L0006_L0003_normed', 'x8_3_1_0_L0012_L0006_normed',
+  'x8_3_1_0_L0024_L0012_normed', 'x8_3_1_0_L0048_L0024_normed', 'x8_3_1_0_L0096_L0048_normed',
+
+
+  'x9_1_1_0_L0003_L0000_normed', 'x9_1_1_0_L0006_L0003_normed', 'x9_1_1_0_L0012_L0006_normed',
+  'x9_1_1_0_L0024_L0012_normed', 'x9_1_1_0_L0048_L0024_normed', 'x9_1_1_0_L0096_L0048_normed',
+
+  'x11_1_1_1_L0003_L0000_normed', 'x11_1_1_2_L0003_L0000_normed', 'x11_1_1_1_L0006_L0003_normed',
+  'x11_1_1_2_L0006_L0003_normed', 'x11_1_1_1_L0012_L0006_normed', 'x11_1_1_2_L0012_L0006_normed',
+  'x11_1_1_1_L0024_L0012_normed', 'x11_1_1_2_L0024_L0012_normed', 'x11_1_1_1_L0048_L0024_normed',
+  'x11_1_1_2_L0048_L0024_normed',
+
+  'x12_1_1_1_L0003_L0000_normed', 'x12_1_1_2_L0003_L0000_normed',
+  'x12_1_1_1_L0006_L0003_normed', 'x12_1_1_2_L0006_L0003_normed', 'x12_1_1_1_L0012_L0006_normed',
+  'x12_1_1_2_L0012_L0006_normed', 'x12_1_1_1_L0024_L0012_normed', 'x12_1_1_2_L0024_L0012_normed',
+  'x12_1_2_1_L0003_L0000_normed', 'x12_1_2_2_L0003_L0000_normed', 'x12_1_2_1_L0006_L0003_normed',
+  'x12_1_2_2_L0006_L0003_normed', 'x12_1_2_1_L0012_L0006_normed', 'x12_1_2_2_L0012_L0006_normed',
+  'x12_1_2_1_L0024_L0012_normed', 'x12_1_2_2_L0024_L0012_normed',
+
+  'is_five', 'is_ten', 'is_clock',
+  'week_id', 'session_id', 'minute_id',
+]
+alias_factors: [
+    'x1_1_2_0_L0000_normed', 'x1_6_1_0_L0096_L0000_normed', 'x1_6_2_0_L0096_L0000_normed', 'x1_7_1_1_L0000_normed',
+    'x1_7_2_1_L0000_normed', 'x1_7_3_1_L0000_normed', 'x1_7_4_1_L0000_normed', 'x1_7_5_1_L0000_normed',
+    'x1_7_6_1_L0000_normed', 'x1_7_7_1_L0000_normed', 'x1_7_8_1_L0000_normed', 'x1_8_1_1_L0000_normed',
+    'x1_8_1_2_L0000_normed', 'x1_9_1_0_L0000_normed', 'x1_10_1_1_L0000_normed', 'x1_10_1_2_L0000_normed',
+    'x1_11_1_1_L0003_L0000_normed', 'x1_11_1_1_L0006_L0000_normed', 'x1_11_1_1_L0012_L0000_normed',
+    'x1_11_1_1_L0024_L0000_normed', 'x1_11_1_2_L0003_L0000_normed', 'x1_11_1_2_L0006_L0000_normed',
+    'x1_11_1_2_L0012_L0000_normed', 'x1_11_1_2_L0024_L0000_normed', 'x1_12_1_1_L0024_L0000_normed',
+    'x1_12_1_1_L0048_L0000_normed', 'x1_12_1_2_L0024_L0000_normed', 'x1_12_1_2_L0048_L0000_normed',
+    'x1_12_1_1_L0096_L0000_normed', 'x1_12_1_2_L0096_L0000_normed',
+
+    'x2_1_1_1_L0003_L0000_normed',
+    'x2_1_1_2_L0003_L0000_normed', 'x2_1_1_1_L0006_L0003_normed', 'x2_1_1_2_L0006_L0003_normed',
+    'x2_1_1_1_L0012_L0006_normed', 'x2_1_1_2_L0012_L0006_normed', 'x2_1_1_1_L0024_L0012_normed',
+    'x2_1_1_2_L0024_L0012_normed', 'x2_1_1_1_L0048_L0024_normed', 'x2_1_1_2_L0048_L0024_normed',
+    'x2_1_1_1_L0096_L0048_normed', 'x2_1_1_2_L0096_L0048_normed', 'x2_1_2_1_L0003_L0000_normed',
+    'x2_1_2_2_L0003_L0000_normed', 'x2_1_2_1_L0006_L0003_normed', 'x2_1_2_2_L0006_L0003_normed',
+    'x2_1_2_1_L0012_L0006_normed', 'x2_1_2_2_L0012_L0006_normed', 'x2_1_3_1_L0003_L0000_normed',
+    'x2_1_3_2_L0003_L0000_normed', 'x2_1_3_1_L0006_L0003_normed', 'x2_1_3_2_L0006_L0003_normed',
+    'x2_1_3_1_L0012_L0006_normed', 'x2_1_3_2_L0012_L0006_normed', 'x2_1_3_1_L0024_L0012_normed',
+    'x2_1_3_2_L0024_L0012_normed', 'x2_1_3_1_L0048_L0024_normed', 'x2_1_3_2_L0048_L0024_normed',
+    'x2_1_4_1_L0003_L0000_normed', 'x2_1_4_2_L0003_L0000_normed', 'x2_1_4_1_L0006_L0003_normed',
+    'x2_1_4_2_L0006_L0003_normed', 'x2_1_4_1_L0012_L0006_normed', 'x2_1_4_2_L0012_L0006_normed',
+    'x2_1_4_1_L0024_L0012_normed', 'x2_1_4_2_L0024_L0012_normed', 'x2_1_4_1_L0048_L0024_normed',
+    'x2_1_4_2_L0048_L0024_normed', 'x2_1_5_1_L0003_L0000_normed', 'x2_1_5_2_L0003_L0000_normed',
+    'x2_1_5_1_L0006_L0003_normed', 'x2_1_5_2_L0006_L0003_normed', 'x2_1_5_1_L0012_L0006_normed',
+    'x2_1_5_2_L0012_L0006_normed', 'x2_1_5_1_L0024_L0012_normed', 'x2_1_5_2_L0024_L0012_normed',
+    'x2_1_5_1_L0048_L0024_normed', 'x2_1_5_2_L0048_L0024_normed',
+
+    'x3_2_1_1_L0003_L0000_normed',
+    'x3_2_1_2_L0003_L0000_normed', 'x3_2_1_1_L0006_L0003_normed', 'x3_2_1_2_L0006_L0003_normed',
+    'x3_2_1_1_L0012_L0006_normed', 'x3_2_1_2_L0012_L0006_normed', 'x3_2_1_1_L0024_L0012_normed',
+    'x3_2_1_2_L0024_L0012_normed', 'x3_2_2_1_L0003_L0000_normed', 'x3_2_2_2_L0003_L0000_normed',
+    'x3_2_2_1_L0006_L0003_normed', 'x3_2_2_2_L0006_L0003_normed', 'x3_2_2_1_L0012_L0006_normed',
+    'x3_2_2_2_L0012_L0006_normed', 'x3_2_2_1_L0024_L0012_normed', 'x3_2_2_2_L0024_L0012_normed',
+    'x3_2_3_1_L0003_L0000_normed', 'x3_2_3_2_L0003_L0000_normed', 'x3_2_3_1_L0006_L0003_normed',
+    'x3_2_3_2_L0006_L0003_normed', 'x3_2_3_1_L0012_L0006_normed', 'x3_2_3_2_L0012_L0006_normed',
+    'x3_2_3_1_L0024_L0012_normed', 'x3_2_3_2_L0024_L0012_normed', 'x3_3_1_1_L0000_normed', 'x3_3_1_2_L0000_normed',
+    'x3_3_1_1_L0003_L0000_normed', 'x3_3_1_2_L0003_L0000_normed', 'x3_3_1_1_L0006_L0003_normed',
+    'x3_3_1_2_L0006_L0003_normed', 'x3_3_1_1_L0012_L0006_normed', 'x3_3_1_2_L0012_L0006_normed',
+    'x3_3_1_1_L0024_L0012_normed', 'x3_3_1_2_L0024_L0012_normed', 'x3_3_1_1_L0048_L0024_normed',
+    'x3_3_1_2_L0048_L0024_normed', 'x3_3_2_1_L0000_normed', 'x3_3_2_2_L0000_normed', 'x3_3_2_1_L0003_L0000_normed',
+    'x3_3_2_2_L0003_L0000_normed', 'x3_3_2_1_L0006_L0003_normed', 'x3_3_2_2_L0006_L0003_normed',
+    'x3_3_2_1_L0012_L0006_normed', 'x3_3_2_2_L0012_L0006_normed', 'x3_3_2_1_L0024_L0012_normed',
+    'x3_3_2_2_L0024_L0012_normed', 'x3_3_2_1_L0048_L0024_normed', 'x3_3_2_2_L0048_L0024_normed',
+
+    'x4_2_1_1_L0003_L0000_normed', 'x4_2_1_2_L0003_L0000_normed', 'x4_2_1_1_L0006_L0003_normed',
+    'x4_2_1_2_L0006_L0003_normed', 'x4_2_1_1_L0012_L0006_normed', 'x4_2_1_2_L0012_L0006_normed',
+    'x4_2_1_1_L0024_L0012_normed', 'x4_2_1_2_L0024_L0012_normed', 'x4_2_1_1_L0048_L0024_normed',
+    'x4_2_1_2_L0048_L0024_normed', 'x4_2_1_1_L0096_L0048_normed', 'x4_2_1_2_L0096_L0048_normed',
+    'x4_2_2_1_L0003_L0000_normed', 'x4_2_2_2_L0003_L0000_normed', 'x4_2_2_1_L0006_L0003_normed',
+    'x4_2_2_2_L0006_L0003_normed', 'x4_2_2_1_L0012_L0006_normed', 'x4_2_2_2_L0012_L0006_normed',
+    'x4_2_2_1_L0024_L0012_normed', 'x4_2_2_2_L0024_L0012_normed', 'x4_2_3_1_L0003_L0000_normed',
+    'x4_2_3_2_L0003_L0000_normed', 'x4_2_3_1_L0006_L0003_normed', 'x4_2_3_2_L0006_L0003_normed',
+    'x4_2_3_1_L0012_L0006_normed', 'x4_2_3_2_L0012_L0006_normed', 'x4_2_3_1_L0024_L0012_normed',
+    'x4_2_3_2_L0024_L0012_normed', 'x4_3_1_1_L0000_normed', 'x4_3_1_2_L0000_normed', 'x4_3_2_1_L0000_normed',
+    'x4_3_2_2_L0000_normed', 'x4_4_1_1_L0003_L0000_normed', 'x4_4_1_2_L0003_L0000_normed', 'x4_4_1_1_L0006_L0003_normed',
+    'x4_4_1_2_L0006_L0003_normed', 'x4_4_1_1_L0012_L0006_normed', 'x4_4_1_2_L0012_L0006_normed',
+    'x4_4_1_1_L0024_L0012_normed', 'x4_4_1_2_L0024_L0012_normed', 'x4_4_1_1_L0048_L0024_normed',
+    'x4_4_1_2_L0048_L0024_normed', 'x4_4_1_1_L0096_L0048_normed', 'x4_4_1_2_L0096_L0048_normed',
+    'x4_4_2_1_L0003_L0000_normed', 'x4_4_2_2_L0003_L0000_normed', 'x4_4_2_1_L0006_L0003_normed',
+    'x4_4_2_2_L0006_L0003_normed', 'x4_4_2_1_L0012_L0006_normed', 'x4_4_2_2_L0012_L0006_normed',
+
+    'x5_1_1_0_L0000_normed', 'x5_1_2_0_L0000_normed', 'x5_2_1_1_L0000_normed', 'x5_2_1_2_L0000_normed', 'x5_2_1_1_L0003_L0000_normed',
+    'x5_2_1_2_L0003_L0000_normed', 'x5_2_1_1_L0006_L0003_normed', 'x5_2_1_2_L0006_L0003_normed',
+    'x5_2_1_1_L0012_L0006_normed', 'x5_2_1_2_L0012_L0006_normed', 'x5_2_1_1_L0024_L0012_normed',
+    'x5_2_1_2_L0024_L0012_normed', 'x5_2_1_1_L0048_L0024_normed', 'x5_2_1_2_L0048_L0024_normed',
+    'x5_3_1_0_L0003_L0000_normed', 'x5_3_1_0_L0006_L0003_normed', 'x5_3_1_0_L0012_L0006_normed',
+    'x5_3_1_0_L0024_L0012_normed', 'x5_3_1_0_L0048_L0024_normed', 'x5_3_1_0_L0096_L0048_normed',
+    'x5_3_2_0_L0003_L0000_normed', 'x5_3_2_0_L0006_L0003_normed', 'x5_3_2_0_L0012_L0006_normed',
+    'x5_3_2_0_L0024_L0012_normed', 'x5_3_2_0_L0048_L0024_normed',
+
+    'x6_2_1_1_L0003_L0000_normed', 'x6_2_1_2_L0003_L0000_normed', 'x6_2_1_1_L0006_L0003_normed', 'x6_2_1_2_L0006_L0003_normed',
+    'x6_2_1_1_L0012_L0006_normed', 'x6_2_1_2_L0012_L0006_normed',
+
+    'x7_1_1_1_L0003_L0000_normed',
+    'x7_1_1_2_L0003_L0000_normed', 'x7_1_1_1_L0006_L0000_normed', 'x7_1_1_2_L0006_L0000_normed',
+    'x7_1_1_1_L0012_L0000_normed', 'x7_1_1_2_L0012_L0000_normed', 'x7_1_1_1_L0024_L0000_normed',
+    'x7_1_1_2_L0024_L0000_normed', 'x7_1_1_1_L0048_L0000_normed', 'x7_1_1_2_L0048_L0000_normed',
+    'x7_2_1_1_L0003_L0000_normed', 'x7_2_1_2_L0003_L0000_normed', 'x7_2_1_1_L0006_L0000_normed',
+    'x7_2_1_2_L0006_L0000_normed', 'x7_2_1_1_L0012_L0000_normed', 'x7_2_1_2_L0012_L0000_normed',
+    'x7_2_1_1_L0024_L0000_normed', 'x7_2_1_2_L0024_L0000_normed', 'x7_2_1_1_L0048_L0000_normed',
+    'x7_2_1_2_L0048_L0000_normed', 'x7_2_1_1_L0096_L0000_normed', 'x7_2_1_2_L0096_L0000_normed',
+
+    'x8_1_1_0_L0003_L0000_normed', 'x8_1_1_0_L0006_L0003_normed', 'x8_1_1_0_L0012_L0006_normed',
+    'x8_1_1_0_L0024_L0012_normed', 'x8_1_1_0_L0048_L0024_normed', 'x8_1_1_0_L0096_L0048_normed',
+    'x8_2_1_0_L0003_L0000_normed', 'x8_2_1_0_L0006_L0003_normed', 'x8_2_1_0_L0012_L0006_normed',
+    'x8_2_1_0_L0024_L0012_normed', 'x8_2_1_0_L0048_L0024_normed', 'x8_2_1_0_L0096_L0048_normed',
+    'x8_3_1_0_L0003_L0000_normed', 'x8_3_1_0_L0006_L0003_normed', 'x8_3_1_0_L0012_L0006_normed',
+    'x8_3_1_0_L0024_L0012_normed', 'x8_3_1_0_L0048_L0024_normed', 'x8_3_1_0_L0096_L0048_normed',
+
+
+    'x9_1_1_0_L0003_L0000_normed', 'x9_1_1_0_L0006_L0003_normed', 'x9_1_1_0_L0012_L0006_normed',
+    'x9_1_1_0_L0024_L0012_normed', 'x9_1_1_0_L0048_L0024_normed', 'x9_1_1_0_L0096_L0048_normed',
+
+    'x11_1_1_1_L0003_L0000_normed', 'x11_1_1_2_L0003_L0000_normed', 'x11_1_1_1_L0006_L0003_normed',
+    'x11_1_1_2_L0006_L0003_normed', 'x11_1_1_1_L0012_L0006_normed', 'x11_1_1_2_L0012_L0006_normed',
+    'x11_1_1_1_L0024_L0012_normed', 'x11_1_1_2_L0024_L0012_normed', 'x11_1_1_1_L0048_L0024_normed',
+    'x11_1_1_2_L0048_L0024_normed',
+
+    'x12_1_1_1_L0003_L0000_normed', 'x12_1_1_2_L0003_L0000_normed',
+    'x12_1_1_1_L0006_L0003_normed', 'x12_1_1_2_L0006_L0003_normed', 'x12_1_1_1_L0012_L0006_normed',
+    'x12_1_1_2_L0012_L0006_normed', 'x12_1_1_1_L0024_L0012_normed', 'x12_1_1_2_L0024_L0012_normed',
+    'x12_1_2_1_L0003_L0000_normed', 'x12_1_2_2_L0003_L0000_normed', 'x12_1_2_1_L0006_L0003_normed',
+    'x12_1_2_2_L0006_L0003_normed', 'x12_1_2_1_L0012_L0006_normed', 'x12_1_2_2_L0012_L0006_normed',
+    'x12_1_2_1_L0024_L0012_normed', 'x12_1_2_2_L0024_L0012_normed',
+]
+predict_factors: ['buyRetFuture25_normed', 'buyRetFuture5_normed', 'buyRetFuture85_normed',
+                  'buyRetFuture25Top', 'buyRetFuture5Top', 'buyRetFuture85Top']
+
+factor_version: v1
+train_time_step: 1
+alias_time_step: 16
+stock_type: HIGH
+optimizer:
+  lr: 0.0005
+  weight-decay: 0.001
+max_train_step: 600000
+batch_size: 512
+log_step: 1000
+save_step: 50000
+valid_step: 50000
+model_save_path: /b/home/pengfei_ji/production_models/
+train_job_key: pretrain_model_tcn
+saved_model: False
+p_mult: 0.05
+adv_weight: 0.5
+adv_train: False
+
+
+
+
+
+
