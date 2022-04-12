@@ -4,7 +4,6 @@
 *.ipynb
 *.png
 **/logs
-*.sh
 **/__pycache__
 **/.ipynb_checkpoints
 *.csv
